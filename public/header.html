@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="path/to/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="path/to/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .header .app-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .category-data {
+            font-size: 18px;
+        }
+        .header .login-button {
+            font-size: 16px;
+        }
+        .header .login-button a {
+            text-decoration: none;
+            color: #007bff;
+            border: 1px solid #007bff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .header .login-button a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="app-name">Nama Aplikasi</div>
+        <div class="category-data">
+            <!-- Data kategori yang telah diinput -->
+            <span>Kategori 1</span>
+            <span>Kategori 2</span>
+            <span>Kategori 3</span>
+            <!-- Tambahkan kategori sesuai kebutuhan -->
+        </div>
+        <div class="login-button">
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+</body>
+</html>
